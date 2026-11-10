@@ -31,7 +31,7 @@ class DetailFragment : Fragment() {
 
         item?.let {
             tvTitle.text = it.title
-            tvCategory.text = "Category: ${it.category}"
+            tvCategory.text = "Danh mục: ${it.category}"
             tvDescription.text = it.description
         }
 

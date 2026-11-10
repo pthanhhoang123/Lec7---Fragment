@@ -12,10 +12,10 @@ import androidx.recyclerview.widget.RecyclerView
 class ListFragment : Fragment() {
 
     private val itemList = listOf(
-        Item(1, "Android Jetpack", "Learn about Architecture Components, Lifecycle, and Fragments.", "Development"),
-        Item(2, "Kotlin Coroutines", "Asynchronous programming and non-blocking threads in Kotlin.", "Programming"),
-        Item(3, "Material Design 3", "Modern UI components and theming for Android applications.", "Design"),
-        Item(4, "Room Database", "SQLite database abstraction library for Android persistence.", "Database")
+        Item(1, "Android Jetpack", "Tìm hiểu về các Architecture Components, Lifecycle và Fragments trong Android.", "Phát triển"),
+        Item(2, "Kotlin Coroutines", "Lập trình bất đồng bộ và xử lý luồng không chặn trong Kotlin.", "Lập trình"),
+        Item(3, "Material Design 3", "Các thành phần giao diện hiện đại và hệ thống giao diện cho ứng dụng Android.", "Thiết kế"),
+        Item(4, "Room Database", "Thư viện trừu tượng cơ sở dữ liệu SQLite giúp lưu trữ dữ liệu bền vững trên Android.", "Cơ sở dữ liệu")
     )
 
     override fun onCreateView(

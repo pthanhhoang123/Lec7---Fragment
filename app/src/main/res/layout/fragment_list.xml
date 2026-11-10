@@ -8,7 +8,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Product Catalog (List Fragment)"
+        android:text="Danh Mục Sản Phẩm (List Fragment)"
         android:textSize="20sp"
         android:textStyle="bold"
         android:gravity="center"
